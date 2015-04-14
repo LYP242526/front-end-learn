@@ -1,0 +1,180 @@
+* {
+	margin:0;
+	padding:0;
+}
+ul {
+	list-style:none;
+	font-size: 0;
+}
+li {
+	display:inline-block;
+}
+a {
+	text-decoration:none;
+	color: #666;
+}
+.container {
+	width:990px;
+	margin:0 auto;
+}
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+	content:"";
+	display:table;
+}
+.clearfix:after,
+.container:after {
+	clear:both;
+}
+.clearfix,
+.container {
+	*zoom: 1;
+}
+
+/* 头部 start */
+#header img {
+	float:left;
+	margin-top:10px;
+}
+#header .search.wrap {
+	float:left;
+	margin-top:30px;
+	margin-left:100px;
+}
+
+#header .search.wrap .select.type {
+	float:left;
+	border:1px solid #efefef;
+	width:50px;
+	height:40px;
+}
+#header .search.wrap .input.area {
+	float:left;
+	width:300px;
+	height:40;
+	border:1px solid #efefef;
+	border-right:none;
+}
+#header .search.wrap .button.area {
+	float:left;
+	border:0;
+	width:50px;
+	height:40px;
+	cursor:pointer;
+	margin-left:0;
+	background-repeat:no-repeat;
+	background-position:0px -100px;
+	background-image:url(http://shared.ydstatic.com/fanxian/5.1.4/images/image/h_hd2.png);
+}
+#header .user.info {
+	float: right;
+	font-size:14px;
+	margin-top:35px;
+}
+#header .user.info li>a {
+	margin:0 15px;
+}
+/* 头部 end */
+
+/* 菜单导航 start */
+.menu {
+	margin-top:30px;
+	border-bottom:2px solid #fd8712;
+}
+.menu .mainmenu {
+	float:left;
+	font-family:黑体;
+	color:black;
+}
+.menu .share.links {
+	float:right;
+	margin-top: 8px;
+}
+.menu .mainmenu li>a {
+	display:block;
+	padding-left:20px;
+	padding-right:20px;
+}
+.menu .share.links li {
+	padding:5px 25px;
+	background-color:#fd8712;
+	font-size: 15px;
+}
+.menu .mainmenu li {
+	line-height:45px;
+	height:45px;
+	font-size:20px;
+}
+.menu .mainmenu .home.page>a,
+.menu .mainmenu .page>a:hover {
+	background-color:#fd8712;
+	color:#fff;
+}
+/* 菜单导航 end */
+
+/* 商品详情 start */
+.content {
+	float: left;
+	width:710px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.sides {
+	float: right;
+	width: 240px;
+}
+.content .goods .goods.item {
+	float: left;
+	width:200px;
+	padding: 20px 15px;
+	font-size: 14px;
+	line-height: 1.3em;
+}
+.content .time {
+	display: block;
+	padding: 12px 0;
+	color: #fd8712;
+	font-size: 20px;
+}
+.content .info{
+	padding-left: 20px;
+	margin-left: 22px;
+	background-image: url(http://oimageb6.ydstatic.com/image?id=-381990628512247314&product=gouwu);
+	background-repeat: no-repeat;
+}
+.content .paragraph {
+	text-indent: 2em;
+	margin:10px 10px 15px 0;
+	line-height: 1.6em;
+	font-size: 15px;
+}
+/* 商品详情 end */
+
+/* 侧边栏 start */
+.sides {
+	padding:15px 20px;
+	background-color: #f5f5f5;
+}
+.sides>h3 {
+	color: gray;
+	margin-bottom: 23px;
+}
+.sides .goods>img {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+.sides .goods .describe {
+	float: left;
+	width: 170px;
+	margin: 0;
+}
+.sides .goods .describe>a {
+	font-size: 12px;
+	display: block;
+}
+.sides .num {
+	font-size: 10px;
+	color: #a7a7a7;
+}
