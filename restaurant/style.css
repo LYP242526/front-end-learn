@@ -1,0 +1,533 @@
+* {
+	padding: 0;
+	margin:0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+i {
+	background-image: url(image/cat.png);
+}
+.container {
+	width:1190px;
+	margin:0 auto;
+}
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+	content:"";
+	display:table;
+}
+.clearfix:after,
+.container:after {
+	clear:both;
+}
+.clearfix,
+.container {
+	*zoom: 1;
+}
+
+.header .header.info {
+	font-family:SimSun;
+	font-size: 12px;
+	color: #000;
+	height: 30px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #e5e5e5;
+}
+.header .header.info .city {
+	float: left;
+	line-height: 30px;
+}
+.header .header.info .log.in {
+	float: right;
+	line-height: 30px;
+	height: 30px;
+}
+.header .header.info .city a,
+.header .header.info span {
+	color: #ea5413;
+}
+.header .header.info .log.in p {
+	display: inline;
+}
+.header .header.info .log.in a {
+	color: #000;
+}
+
+.header .menu {
+	height: 76px;
+	border-bottom: 2px solid #ea5413;
+}
+.header .menu .logo {
+	padding-top: 10px;
+	margin-right: 100px;
+	float: left;
+}
+.header .menu .mainmenu ul {
+	font-size: 0;
+	float: left;
+}
+.header .menu .mainmenu ul li {
+	display: inline-block;
+	margin-top: 21px;
+}
+.header .menu .mainmenu .special a {
+	background: url(image/line.png) no-repeat;
+	background-position: 4px 1px;
+	background-color: #ea5413;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+}
+.header .menu .mainmenu ul>li a:hover {
+	background: url(image/line.png) no-repeat;
+	background-position: 4px 1px;
+	background-color: #ea5413;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+}
+.header .menu .mainmenu ul>li a {
+	font-family:Microsoft YaHei;
+	font-size: 18px;
+	color: #ea5413;
+	width: 93px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	display: inline-block;
+}
+.header .menu .client.side {
+	float: right;
+	padding-top: 40px;
+}
+.header .menu .client.side a {
+	font-family: simsun;
+	font-size: 14px;
+	color: #ea5413;
+	padding: 2px 0 2px 20px;
+	background: url(image/cat.png) no-repeat;
+	background-position: 0 0;
+}
+
+.content {
+	background-color: #f5f5f5;
+}
+.content .location p {
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.content .location p a {
+	color: #ea5413;
+}
+.content .text.area {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	padding: 17px 21px 0 21px;
+	margin-bottom: 20px;
+}
+.content .text.area .search.area {
+	position: relative;
+}
+.content .text.area .search.area input {
+	width: 650px;
+	height: 40px;
+	border-radius: 5px;
+	border:1px solid #e5e5e5;
+	font-size: 18px;
+}
+.content .text.area .search.area button {
+	position: absolute;
+	background: url(image/cat.png) no-repeat;
+	background-position: 14px -439px;
+	background-color: #ea5413;
+	border-radius: 0 5px 5px 0;
+	border: none;
+	padding-left: 40px;
+	padding-right: 20px;
+	height: 40px;
+	font-size: 18px;
+	color: #fff;
+	font-family: 微软雅黑;
+	left:556px;
+	top:1px;
+}
+.content .text.area ul>li {
+	display: inline-block;
+}
+.content .text.area .option,
+.content .text.area .atmosphere {
+	border-bottom: 1px dotted #e9cdb1;
+}
+.content .text.area .special a {
+	color: #fff;
+	background-color:#ea5413;
+	border-radius: 3px;
+}
+.content .text.area p {
+	display: inline-block;
+	float: left;
+	line-height: 46px;
+}
+.content .text.area ul {
+	float: left;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.content .text.area ul>li a {
+	color: #999;
+	font:14px simsun;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 3px 0 3px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 30px;
+}
+.content .text.area .select ul {
+	margin-left: 70px;
+	background: url(image/rectangle.jpg) left center no-repeat;
+	padding-left: 40px;
+	padding-right: 695px;
+}
+.content .text.area ul li a:hover {
+	color: #fff;
+	background-color:#ea5413;
+	border-radius: 3px;
+}
+.content .main.content .left.content {
+	float: left;
+	width: 920px;
+	box-sizing:border-box;
+}
+.content .main.content .left.content .title {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	padding: 0 32px 0 21px;
+	height: 35px;
+	margin-bottom: 2px;
+}
+.content .main.content .left.content .title form {
+	float: left;
+}
+.content .main.content .left.content .title a {
+	font-size:12px;
+	font-family: simsun;
+	color: #000;
+	line-height: 35px;
+}
+.content .main.content .left.content .title ul>li {
+	float: right;
+	display: inline-block;
+	margin-left: 30px;
+}
+.content .main.content .left.content .title .popularity a,
+.content .main.content .left.content .title .capita a {
+	background: url(image/cat.png) no-repeat;
+	background-position: 26px -98px;
+	padding-right: 15px;
+}
+.content .main.content .left.content .restaurant.list {
+	clear: both;
+	padding:0 32px 0 22px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
+.content .main.content .left.content .restaurant.list .list {
+	border-bottom: 1px solid #e5e5e5;
+	width: 100%;
+}
+.content .main.content .left.content .restaurant.list .list:last-child {
+	border: none;
+}
+.content .main.content .left.content .restaurant.list .list .introduces {
+	float: left;
+	margin-top: 30px;
+	margin-right: 100px;
+}
+.content .main.content .left.content .restaurant.list .list .restaurant.image {
+	float: left;
+	margin: 30px 15px 30px 0;
+}
+.content .main.content .left.content .restaurant.list .list .restaurant.infos {
+	float: left;
+}
+.content .main.content .left.content .restaurant.list .list .button.area {
+	float: right;
+	margin-right: 20px;
+	margin-top: 70px;
+}
+.content .main.content .left.content .restaurant.list .list p {
+	color: #666;
+	font-size: 14px;
+	font-family: simsun;
+}
+.content .main.content .left.content .restaurant.list .list .introduces a {
+	font:400 18px Microsoft YaHei;
+	color: #000;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .hot {
+	display: inline-block;
+	width: 60px;
+	height: 26px;
+	background-position:0 -150px;
+}
+.content .main.content .left.content .restaurant.list .list .introduces ul {
+	font-size: 0;
+	margin:8px 0;
+}
+.content .main.content .left.content .restaurant.list .list .introduces ul li {
+	padding-right: 15px;
+	display: inline-block;
+	color: #666;
+	font-size: 14px;
+	font-family: simsun;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .dish.style {
+	border-right:1px solid #e5e5e5;
+	float: left;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .environment {
+	padding-left: 15px;
+	float: left;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .price p {
+	color: #ea5413;
+	font-family: Microsoft YaHei;
+	display: inline-block;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .address {
+	background: url(image/cat.png) no-repeat;
+	background-position: 1px -49px;
+	padding: 2px 0 2px 20px;
+}
+.content .main.content .left.content .restaurant.list .list .hide {
+	margin-top:20px;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .price span {
+	font-size: 25px;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .consume {
+	width: 57px;
+	height: 18px;
+	display: inline-block;
+	background-position: 0 -400px;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .price {
+	border-bottom: 1px dotted #e9cdb1;
+	margin-bottom: 5px;
+}
+.content .main.content .left.content .restaurant.list .list .introduces .cat-4 {
+	width: 15px;
+	height: 20px;
+	display: inline-block;
+	background-position: 0 -50px;
+}
+.content .main.content .left.content .restaurant.list .list .button.area a {
+	display: inline-block;
+	background-color: #ff8230;
+	border-radius: 5px;
+	box-shadow: 0 3px 0 #d45d00;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	color:#fff;
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.content .main.content .left.content .restaurant.list .list .button.area p {
+	margin-top: 10px;
+}
+.content .main.content .left.content .restaurant.list .list .button.area span {
+	color: #89b923;
+}
+.content .main.content .left.content .restaurant.list .list .button.area h4 {
+	font:400 18px/1.5em Microsoft YaHei;
+	text-align: center;
+}
+.content .main.content .left.content .restaurant.list .list .button.area h5 {
+	color: #666;
+	font:14px simsun;
+	margin-top:12px;
+	text-align: center;
+}
+.content .main.content .left.content .restaurant.list .list .button.area h5>span {
+	color: #ff8230;
+}
+
+.content .main.content .right.content {
+	float: right;
+	width: 245px;
+	padding:10px 20px;
+	background-color: #fff;
+	box-sizing:border-box;
+	margin-bottom: 22px;
+}
+.content .main.content .right.content .recommend .recommend.restaurant {
+	padding:3px 0 3px 35px;
+	background: url(image/cat.png) no-repeat;
+	background-position: 1px -196px;
+}
+.content .main.content .right.content .recommend .enter {
+	padding:3px 0 3px 35px;
+	background: url(image/cat.png) no-repeat;
+	background-position: 1px -246px;
+}
+.content .main.content .right.content .recommend .recommend.list .style .dish.style {
+	border-right:1px solid #e5e5e5;
+	float: left;
+}
+.content .main.content .right.content .recommend .recommend.list .style .environment {
+	padding-left: 15px;
+	float: left;
+}
+.content .main.content .right.content .recommend h4 {
+	display: inline-block;
+	font:18px Microsoft YaHei;
+}
+.content .main.content .right.content .recommend .recommend.list a {
+	font:14px/1.8em simsun;
+	color: #333;
+}
+.content .main.content .right.content .recommend .recommend.list ul li {
+	padding-right: 10px;
+	display: inline-block;
+	color: #bbb;
+	font-size: 12px;
+	font-family: simsun;
+}
+.content .main.content .right.content .recommend .recommend.list .address {
+	background: url(image/cat.png) no-repeat;
+	background-position: 1px -49px;
+	padding: 3px 0 3px 20px;
+}
+.content .main.content .right.content .recommend .recommend.list p {
+	display: inline-block;
+	color: #bbb;
+	font-size: 12px;
+	font-family: simsun;
+}
+.content .main.content .right.content .recommend .recommend.list {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 0;
+}
+.content .main.content .right.content .recommend .recommend.list:last-child {
+	border: none;
+}
+.page.turning {
+	clear: both;
+}
+.page.turning ul {
+	padding:20px 0 50px 220px;
+	display: inline-block;
+}
+.page.turning a {
+	font-size:14px;
+	font:simsun;
+	color: #333;
+	border: 1px solid #ebe9e9;
+	line-height: 35px;
+}
+.page.turning .pages a {
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	text-align: center;
+	background-color:#fff;
+}
+.page.turning ul>li {
+	display: inline-block;
+	margin-right: 2px;
+}
+.page.turning .pages.two a {
+	background-color: #ff6633;
+	color: #fff;
+}
+.page.turning .page.up a {
+	background: url(image/cat.png) no-repeat;
+	background-position:-135px -37px;
+	background-color: #fff;
+	line-height: 35px;
+	width: 70px;
+	display: inline-block;
+	text-align: center;
+}
+.page.turning .page.down a {
+	background: url(image/cat.png) no-repeat;
+	background-position:-80px 12px ;
+	background-color: #fff;
+	line-height: 35px;
+	width: 70px;
+	display: inline-block;
+	text-align: center;
+}
+
+.footer {
+	background: url(image/footerbg.jpg) top center no-repeat;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.footer .container .listing {
+	float: left;
+	width: 300px;
+	background: url(image/footer.jpg) top center no-repeat;
+	padding-top: 10px;
+}
+.footer .container .listing.one,
+ .footer .container .listing.two {
+	margin-right: 140px;
+}
+.footer .container .listing h4 {
+	font:18px Microsoft YaHei;
+	margin-bottom: 20px;
+}
+.footer .container ul>li a {
+	font:14px simsun;
+	color: #000;
+	display: inline-block;
+	margin-right: 60px;
+	margin-bottom: 25px;
+}
+
+.footer .container .copyright {
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.footer .container .copyright p {
+	text-align: center;
+	font:12px/1.8em simsun;
+	color: #24241f;
+}
+.footer .container .listing.two a {
+	display: block;
+	font:18px Microsoft YaHei;
+	color: #fff;
+	line-height: 53px;
+}
+.footer .container .listing.two .microblog {
+	background: url(image/cat.png) no-repeat;
+	background-position: 18px -290px;
+	background-color: #ea5413;
+	padding-left: 70px;
+	padding-right: 25px;
+	height: 53px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.footer .container .listing.two .wechat {
+	background: url(image/cat.png) no-repeat;
+	background-position: 18px -340px;
+	background-color: #89b923;
+	padding-left: 70px;
+	padding-right: 25px;
+	height: 53px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 20px;
+}
