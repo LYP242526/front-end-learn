@@ -191,7 +191,7 @@ i {
 	margin-left: 70px;
 	background: url(images/rectangle.jpg) left center no-repeat;
 	padding-left: 40px;
-	padding-right: 695px;
+	width: 1020px;
 }
 .content .text.area ul li a:hover {
 	color: #fff;
@@ -219,8 +219,10 @@ i {
 	color: #000;
 	line-height: 35px;
 }
-.content .main.content .left.content .title ul>li {
+.content .main.content .left.content .title ul {
 	float: right;
+}
+.content .main.content .left.content .title ul>li {
 	display: inline-block;
 	margin-left: 30px;
 }
@@ -254,6 +256,7 @@ i {
 }
 .content .main.content .left.content .restaurant.list .list .restaurant.infos {
 	float: left;
+	width: 640px;
 }
 .content .main.content .left.content .restaurant.list .list .button.area {
 	float: right;
