@@ -1,0 +1,16 @@
+thead{
+	font-family:黑体;
+	font-size:20px;
+	background-color:blue;
+}
+tbody{
+	font-family:宋体;
+	font-size:15px;
+	background:green;
+}
+caption{
+	 font-size:25px;
+	 padding:8px;
+	 font-family:黑体;
+	 color:red;
+}
