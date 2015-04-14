@@ -1,0 +1,170 @@
+* {
+	padding:0;
+	margin:0;
+	
+}
+body {
+	margin:auto;
+}
+#header {
+	width:1000px;
+	margin:10px auto;
+	height:50px;
+}
+.logo img {
+	float:left;
+	width:200px;
+	padding-right:50px;
+	padding-left:0;
+}
+.search {
+	float:left;
+	padding-top:24px;
+}
+.search select {
+	width:50px;
+	height:40px;
+	font-sizeselect
+}
+input.text {
+	width:300px;
+	height:40px;
+}
+.submit {
+	width:45px;
+	height:43px;
+	background-image:url(picture3.jpg);width:45px;
+}
+.login {
+	float:right;
+	padding-right:15px;
+}
+.login li {
+	float:left;
+	display:inline-block;
+	list-style:none;
+	font-size:14px;
+	padding:15px;
+}
+#menu {
+	margin:auto;
+	width:1000px;
+	clear:both;
+}
+.menu1 {
+	float:left;
+	font-size:17px;
+	font-family:黑体;
+}
+.menu1 li {
+	list-style:none;
+	display:inline-block;
+	padding:15px;
+}
+.menu2 {
+	float:right;
+	margin-bottom:2px;
+}
+li.pag {
+	background-color:#fe8713;
+	width:50px;
+	text-align:center;
+	color:white;
+}
+.menu2 li {
+	list-style:none;
+	display:inline-block;
+	padding:5px 17px;
+	background-color:#fe8713;
+	color:white;
+}
+hr {
+	border-bottom:2px solid #fe8713;
+	height:0;
+	width:100%;
+	clear:both;
+}
+#menucontent {
+	width:1000px;
+	margin:auto;
+}
+.menucontent1 {
+	width:690px;
+	float:left;
+	margin:20px 30px 20px 0;
+}
+.menucontent1 h2 {
+	padding-bottom:12px;
+}
+.menucontent1 h3 {
+	padding-bottom:10px;
+}
+.menucontent1 li {
+	list-style:none;
+	display:inline-block;
+	font-size:15px;
+	padding:5px 10px;
+	margin-bottom:10px;
+}
+p.paragraph {
+	text-indent:2em;
+	line-height:23px;
+	font-size:15px;
+	padding-bottom:15px;
+}
+.menucontent1 a {
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+}
+.text span,.content span,.menucontent1 span {
+	color:#fe8713;
+}
+.menucontent2 {
+	float:right;
+	width:280px;
+	background-color:gainsboro;
+}
+.menucontent2 h2 {
+	text-indent:1em;
+	color:gray;
+	margin-top:10px;
+	margin-bottom:22px;
+}
+.menucontent2 p {
+	font-size:15px;
+	margin:0;  
+}
+.menucontent2 li {
+	list-style:none;
+	margin-left:23px;
+	padding-bottom:10px;
+}
+.menucontent2 a {
+	text-decoration:none;
+	color:black;
+	font-size:13px;
+}
+.menucontent2 span {
+	color:silver;
+	font-size:13px;
+}
+.menucontent2 img {
+	width:50px;
+	height:50px;
+	float:left;
+	padding-right:15px;
+}
+.content {
+	float:left;
+	width:170px;
+	margin:20px 30px;
+}
+.content p {
+	font-size:13px;
+}
+.content img {
+	width:180px;
+	display:block;
+	margin:0 auto;
+}
