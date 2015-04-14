@@ -60,7 +60,7 @@ a {
 }
 
 .page:nth-child(2) {
-	background: url(image/image1.jpg) top center no-repeat;
+	background: url(images/image1.jpg) top center no-repeat;
 	margin: 0 auto;
 	height: 660px;
 }
@@ -90,7 +90,7 @@ a {
 	font-family:Microsoft YaHei;
 	color: #fff;
 	font-size: 28px;
-	background:url(image/cat.png) no-repeat;
+	background:url(images/cat.png) no-repeat;
 	background-position: -70px -3580px;
 	background-color: #ea5413;
 }
@@ -104,31 +104,31 @@ a {
 .page:nth-child(2) .cost.down p {
 	padding-top:80px;
 	padding-right: 5px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 0;
 }
 .page:nth-child(2) .passenger.flow p {
 	padding-top:80px;
 	padding-right: 5px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -150px;
 }
 .page:nth-child(2) .standard.management p {
 	padding-top:80px;
 	padding-right: 5px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -300px;
 }
 .page:nth-child(2) .build.brand p {
 	padding-top:80px;
 	padding-right: 5px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -450px;
 }
 .page:nth-child(2) .fashion p {
 	padding-top:80px;
 	padding-right: 5px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -600px;
 }
 
@@ -165,7 +165,7 @@ a {
 	text-align: center;
 	padding-top: 110px;
 	margin-bottom: 20px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: -160px -750px;
 }
 .page:nth-child(3) .secretary p {
@@ -178,7 +178,7 @@ a {
 	text-align: center;
 	padding-top: 110px;
 	margin-bottom: 20px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: -160px -900px;
 }
 .page:nth-child(3) .manager p {
@@ -191,7 +191,7 @@ a {
 	text-align: center;
 	padding-top: 110px;
 	margin-bottom: 20px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: -160px -1050px;
 }
 .page:nth-child(3) .marketing p {
@@ -204,7 +204,7 @@ a {
 	text-align: center;
 	padding-top: 110px;
 	margin-bottom: 20px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: -160px -1200px;
 }
 .page:nth-child(3) .assistant p {
@@ -213,7 +213,7 @@ a {
 }
 
 .page:nth-child(4) {
-	background: url(image/image2.jpg) top center no-repeat;
+	background: url(images/image2.jpg) top center no-repeat;
 	margin: 0 auto;
 	height: 620px;
 }
@@ -274,7 +274,7 @@ a {
 	margin-top:5px;
 	color: #a78b62;
 	padding-top:95px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 }
 .page:nth-child(5) .text .net a {
 	background-position: -212px -2100px;
@@ -286,75 +286,72 @@ a {
 	background-position: -212px -2400px;
 }
 .page:nth-child(5) .system {
+	background: url(images/picture.jpg) -2px 70px no-repeat;
 	float: right;
 	position: relative;
-	width: 1000px;
-}
-.page:nth-child(5) {
-	background: url(image/picture.jpg) no-repeat;
-	background-position: 410px 70px;
+	width: 850px;
+	height: 590px;
 }
 .page:nth-child(5) .system .title-h2 {
 	font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
 	font-size: 22px;
 	color: #fff;
-	position: absolute;
-	top:-363px;
-	right: 304px;
+	margin-top: 148px;
+	margin-left: 15px;
 	text-align: center;
 }
 .page:nth-child(5) .system p {
 	font-family: tahoma,arial,"宋体", SimSun;
 	color: #fff;
 	font-size: 18px;
-	background: url(image/portrait.png) no-repeat;
+	background: url(images/portrait.png) no-repeat;
 	display: inline;
 }
 .page:nth-child(5) .system .line.up {
 	background-position: 3px 3px;
 	padding:5px 20px 100px 20px;
 	position: absolute;
-	bottom: 18px;
-	right: 627px;
+	bottom: 97px;
+	right: 659px;
 }
 .page:nth-child(5) .system .pay {
 	background-position: 16px -147px;
 	padding:5px 20px 100px 20px;
 	position: absolute;
-	bottom: 4px;
-	right: 438px;
+	bottom: 86px;
+	right: 473px;
 }
 .page:nth-child(5) .system .reserve {
 	background-position: 4px -297px;
 	padding:5px 25px 100px 25px;
 	position: absolute;
-	bottom: 47px;
-	right: 347px;
+	bottom: 126px;
+	right: 383px;
 }
 .page:nth-child(5) .system .order.dishes {
 	background-position: 10px -446px;
 	padding:5px 20px 100px 20px;
 	position: absolute;
-	bottom: -36px;
-	right: 258px;
+	bottom: 45px;
+	right: 293px;
 }
 .page:nth-child(5) .system .server {
 	background-position: 2px -597px;
 	padding:5px 20px 100px 20px;
 	position: absolute;
-	bottom: 22px;
-	right: 148px;
+	bottom: 100px;
+	right: 182px;
 }
 .page:nth-child(5) .system .trend {
 	background-position: 6px -747px;
 	padding:5px 20px 100px 20px;
 	position: absolute;
-	bottom: 8px;
-	right: 15px;
+	bottom: 88px;
+	right: 49px;
 }
 
 .page:nth-child(6) {
-	background: url(image/image3.jpg) top center no-repeat;
+	background: url(images/image3.jpg) top center no-repeat;
 	margin: 0 auto;
 	height: 620px;
 }
@@ -389,7 +386,7 @@ a {
 .page:nth-child(6) .text .consumption a {
 	font:200 36px 微软雅黑;
 	color: #fff;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -3740px;
 	padding:25px 0 30px 100px;
 	display: block;
@@ -397,7 +394,7 @@ a {
 .page:nth-child(6) .text .statistics a {
 	font:200 22px 微软雅黑;
 	color: #fff;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 21px -3893px;
 	padding:10px 0 10px 100px;
 	display: block;
@@ -405,7 +402,7 @@ a {
 .page:nth-child(6) .text .performance a {
 	font:200 22px 微软雅黑;
 	color: #fff;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 21px -4040px;
 	padding:15px 0 10px 100px;
 	display: block;
@@ -443,7 +440,7 @@ a {
 	font-size:18px;
 	font-family: 微软雅黑;
 	color: #999;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 }
 .activity p {
 	position: absolute;
@@ -482,7 +479,7 @@ a {
 }
 
 .page:nth-child(8) {
-	background: url(image/image4.jpg) top center no-repeat;
+	background: url(images/image4.jpg) top center no-repeat;
 	margin: 0 auto;
 	height: 530px;
 }
@@ -504,10 +501,23 @@ a {
 #footer .container .list {
 	box-sizing:border-box;
 	float: left;
-	width: 295px;
 	height:140px;
-	padding-left: 120px;
 	margin-bottom: 20px;
+}
+#footer .container .list.one .infos {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#footer .container .list.two .infos {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#footer .container .list.three .infos {
+	margin-left: 90px;
+	margin-right: 90px;
+}
+#footer .container .list.four #two-dimension {
+	margin-left: 90px;
 }
 #footer .container .list.one,
 #footer .container .list.two,
@@ -525,7 +535,7 @@ a {
 	color: #666;
 }
 #footer .container .list  #two-dimension {
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: -215px -2550px;
 	width: 85px;
 	height: 85px;
@@ -536,7 +546,7 @@ a {
 	color: #000;
 	margin-bottom: 10px;
 	padding: 5px 0 5px 40px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -2697px;
 }
 #footer .container .list .contact.us {
@@ -544,7 +554,7 @@ a {
 	color: #000;
 	margin-bottom: 10px;
 	padding: 5px 0 5px 40px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -2845px;
 }
 #footer .container .list .about.us {
@@ -552,7 +562,7 @@ a {
 	color: #000;
 	margin-bottom: 10px;
 	padding: 5px 0 5px 40px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -2997px;
 }
 #footer .container .list .client {
@@ -560,6 +570,14 @@ a {
 	color: #000;
 	margin-bottom: 10px;
 	padding: 5px 0 5px 30px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 -3147px;
+}
+#footer .container .list .lists.microblog {
+	padding-left: 20px;
+	background: url(images/cat.png) -282px -3294px no-repeat;
+}
+#footer .container .list .lists.wechat {
+	padding-left: 20px;
+	background: url(images/cat.png) -282px -3444px no-repeat;
 }

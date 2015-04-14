@@ -13,7 +13,7 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
 推荐使用Github的客户端 [windows 版下载](https://windows.github.com/)。
 
 ###  常用命令
-* 检出仓库 `git clone /path/to/repository`
+* 检出仓库 `git clone + 项目地址`
 * 获取更新，并与本地代码进行合并 `git pull`
 * 将文件添加到版本控制系统 `git add filePath`
 * 提交改动代码 `git commit -m filePath "注释"` 注意:注释是必填的
@@ -23,6 +23,9 @@ Git有很多优势，其中之一就是远程操作非常简便，以及速度�
 * 将文件的内容替换成上次提交时候的内容 `git checkout filePath`
 * 将还没提交的内容保存起来，所有的文件内容变成上次提交时的样子 `git stash`
 * 回复上次`git stash`的内容，并与当前代码进行合并 `git stash pop`
+* 查看目录下有哪些文件 `ls`
+* 到某个目录下 `cd+目录`
+* 补全目录名称 `T	ab`
 * 分支操作
 	* 切换到某分支 `git checkout branchName`
 	* 创建并切换到某分支 `git checkout -b branchName`

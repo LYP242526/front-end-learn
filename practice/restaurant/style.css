@@ -9,7 +9,7 @@ li {
 	list-style: none;
 }
 i {
-	background-image: url(image/cat.png);
+	background-image: url(images/cat.png);
 }
 .container {
 	width:1190px;
@@ -77,14 +77,14 @@ i {
 	margin-top: 21px;
 }
 .header .menu .mainmenu .special a {
-	background: url(image/line.png) no-repeat;
+	background: url(images/line.png) no-repeat;
 	background-position: 4px 1px;
 	background-color: #ea5413;
 	border-radius: 5px 5px 0 0;
 	color: #fff;
 }
 .header .menu .mainmenu ul>li a:hover {
-	background: url(image/line.png) no-repeat;
+	background: url(images/line.png) no-repeat;
 	background-position: 4px 1px;
 	background-color: #ea5413;
 	border-radius: 5px 5px 0 0;
@@ -109,7 +109,7 @@ i {
 	font-size: 14px;
 	color: #ea5413;
 	padding: 2px 0 2px 20px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 0 0;
 }
 
@@ -141,7 +141,7 @@ i {
 }
 .content .text.area .search.area button {
 	position: absolute;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 14px -439px;
 	background-color: #ea5413;
 	border-radius: 0 5px 5px 0;
@@ -189,7 +189,7 @@ i {
 }
 .content .text.area .select ul {
 	margin-left: 70px;
-	background: url(image/rectangle.jpg) left center no-repeat;
+	background: url(images/rectangle.jpg) left center no-repeat;
 	padding-left: 40px;
 	padding-right: 695px;
 }
@@ -226,7 +226,7 @@ i {
 }
 .content .main.content .left.content .title .popularity a,
 .content .main.content .left.content .title .capita a {
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 26px -98px;
 	padding-right: 15px;
 }
@@ -300,7 +300,7 @@ i {
 	display: inline-block;
 }
 .content .main.content .left.content .restaurant.list .list .introduces .address {
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 1px -49px;
 	padding: 2px 0 2px 20px;
 }
@@ -369,12 +369,12 @@ i {
 }
 .content .main.content .right.content .recommend .recommend.restaurant {
 	padding:3px 0 3px 35px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 1px -196px;
 }
 .content .main.content .right.content .recommend .enter {
 	padding:3px 0 3px 35px;
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 1px -246px;
 }
 .content .main.content .right.content .recommend .recommend.list .style .dish.style {
@@ -401,9 +401,9 @@ i {
 	font-family: simsun;
 }
 .content .main.content .right.content .recommend .recommend.list .address {
-	background: url(image/cat.png) no-repeat;
-	background-position: 1px -49px;
-	padding: 3px 0 3px 20px;
+	background: url(images/cat.png) no-repeat;
+	background-position: 1px -45px;
+	padding: 7px 0 3px 18px;
 }
 .content .main.content .right.content .recommend .recommend.list p {
 	display: inline-block;
@@ -448,8 +448,8 @@ i {
 	color: #fff;
 }
 .page.turning .page.up a {
-	background: url(image/cat.png) no-repeat;
-	background-position:-135px -37px;
+	background: url(images/cat.png) 6px -540px no-repeat;
+	/*background-position:-135px -37px;*/
 	background-color: #fff;
 	line-height: 35px;
 	width: 70px;
@@ -457,8 +457,8 @@ i {
 	text-align: center;
 }
 .page.turning .page.down a {
-	background: url(image/cat.png) no-repeat;
-	background-position:-80px 12px ;
+	background: url(images/cat.png) 59px -489px no-repeat;
+	/*background-position:-80px 12px ;*/
 	background-color: #fff;
 	line-height: 35px;
 	width: 70px;
@@ -467,7 +467,7 @@ i {
 }
 
 .footer {
-	background: url(image/footerbg.jpg) top center no-repeat;
+	background: url(images/footerbg.jpg) top center no-repeat;
 	border-top: 1px solid #e5e5e5;
 	padding-top: 40px;
 	padding-bottom: 20px;
@@ -475,7 +475,7 @@ i {
 .footer .container .listing {
 	float: left;
 	width: 300px;
-	background: url(image/footer.jpg) top center no-repeat;
+	background: url(images/footer.jpg) top center no-repeat;
 	padding-top: 10px;
 }
 .footer .container .listing.one,
@@ -511,7 +511,7 @@ i {
 	line-height: 53px;
 }
 .footer .container .listing.two .microblog {
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 18px -290px;
 	background-color: #ea5413;
 	padding-left: 70px;
@@ -521,7 +521,7 @@ i {
 	display: inline-block;
 }
 .footer .container .listing.two .wechat {
-	background: url(image/cat.png) no-repeat;
+	background: url(images/cat.png) no-repeat;
 	background-position: 18px -340px;
 	background-color: #89b923;
 	padding-left: 70px;
