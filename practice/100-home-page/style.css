@@ -503,26 +503,21 @@ a {
 	float: left;
 	height:140px;
 	margin-bottom: 20px;
+	padding: 0 68px;
 }
-#footer .container .list.one .infos {
-	margin-left: 100px;
-	margin-right: 100px;
+
+#footer .container .list .infos {
+	margin-left: 43px;
 }
-#footer .container .list.two .infos {
-	margin-left: 100px;
-	margin-right: 100px;
+
+#footer .container .list #two-dimension {
+	margin-left: 34px;
 }
-#footer .container .list.three .infos {
-	margin-left: 90px;
-	margin-right: 90px;
-}
-#footer .container .list.four #two-dimension {
-	margin-left: 90px;
-}
-#footer .container .list.one,
-#footer .container .list.two,
-#footer .container .list.three {
+#footer .container .list {
 	border-right: 1px solid #c4c4c4;
+}
+#footer .container .list:last-child {
+	border-right: none;
 }
 #footer .container .copyright {
 	clear: both;
