@@ -1,0 +1,266 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 990px;
+	margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+	content:"";
+	display:table;
+}
+.clearfix:after,
+.container:after {
+	clear:both;
+}
+.clearfix,
+.container {
+	*zoom: 1;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+ul {
+	list-style:none;
+}
+strong {
+	color: red;
+	font-size:18px;
+}
+
+.header .logo {
+	float: left;
+}
+.header .language {
+	float: right;
+}
+.header .language li {
+	display: inline-block;
+	background: url(image2.jpg) left -5px no-repeat;
+	padding-left: 40px;
+	margin: 10px 0 25px 0;
+}
+.language h2 {
+	clear: both;
+	text-align: right;
+	letter-spacing: 5px;
+	color: red;
+	margin-bottom: 10px;
+}
+.menu {
+	clear: both;
+}
+.menu ul {
+	font-size: 0;
+	border-radius: 5px;
+	border:1px solid gray;
+	height: 40px;
+	background-color: #e9e9e9;
+}
+.menu ul>li {
+	display: inline-block;
+}
+.menu li>a {
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	border-right: 2px solid gray;
+	font-size: 20px;
+	padding: 0 60px;
+}
+.menu li:last-child>a {
+	border: none;
+}
+.introduce {
+	border: 1px solid gray;
+	-webkit-box-shadow: 3px 3px 5px #b6b4b5;
+	-moz-box-shadow: 3px 3px 5px #b6b4b5;
+	box-shadow: 3px 3px 5px #b6b4b5;
+	border-radius: 5px;
+	margin:10px 0 16px 0;
+	background: url(image3.jpg) 600px center no-repeat;
+}
+.introduce .detail {
+	float: left;
+	width: 400px;
+	padding: 30px 50px;
+	line-height: 1.8em;
+}
+.introduce .detail h2 {
+	padding-bottom: 20px;
+	color: blue;
+}
+
+.mainmenu {
+	clear: both;
+}
+.employment {
+	float: left;
+	border: 1px solid gray;
+	width: 235px;
+
+}
+.employment .title {
+	width:inherit;
+	border-bottom: 2px solid red;
+	background-color: #e9e9e9;
+}
+.title strong {
+	height: 40px;
+	line-height: 40px;
+	margin-left: 18px;
+}
+.recruit {
+	margin: 20px 10px;
+	padding: 5px 10px;
+	border-bottom: 1.5px solid gray;
+}
+.recruit a {
+	display: block;
+	font-size: 25px;
+}
+.recruit:last-child {
+	border: none;
+}
+.content {
+	float: right;
+	border: 1px solid gray;
+	padding: 10px 15px 20px 10px;
+	margin-bottom: 20px;
+	width: 710px;
+}
+.content .picture2 {
+	width:705px;
+}
+.title1,
+.title2,
+.books {
+	background-color: #e9e9e9;
+	border: 1px solid gray;
+	padding: 8px;
+}
+.left.wrap,
+.left.area {
+	width:450px;
+	margin-right: 20px;
+	float:left;
+}
+.left.wrap {
+	background: url(image5.jpg) right bottom no-repeat;
+	background-image-size:;
+}
+.right.wrap,
+.right.area {
+	float: right;
+	width: 235px;
+}
+.left.wrap .question1 {
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 15px;
+}
+.left.wrap .question2 {
+	float: left;
+	margin-bottom: 15px;
+}
+.right.wrap .question3 {
+	margin-bottom: 15px;
+	margin-top: 45px;
+}
+.left.wrap p {
+	color: blue;
+	padding-top: 18px;
+	padding-bottom: 8px;
+}
+#question li>a {
+	font-size: 12px;
+	line-height: 1.5em;
+}
+.question4,
+.question5 {
+	float: left;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-right: 25px;
+	line-height: 1.8em;
+}
+.question6 {
+	line-height: 1.8em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.music {
+	width: 450px;
+}
+.style1 {
+	padding-left: 30px;
+	padding-right: 230px;
+}
+.style2 {
+	padding-left: 20px;
+	padding-right: 35px;
+}
+.style3 {
+	padding-left: 20px;
+	padding-right: 15px;
+}
+.style4 {
+	padding-left: 30px;
+	padding-right: 490px;
+}
+.book {
+	clear: both;
+}
+.roll {
+	text-align: center;
+	margin: 15px auto;
+}
+.roll img {
+	margin: 10px;
+}
+.picture.down {
+	width:705px;
+}
+
+.footer {
+	clear: both;
+	font-size: 13px;
+	border-top: 1px solid gray;
+}
+.footer p {
+	text-align: right;
+	padding-top: 20px;
+	font-size: 16px;
+	color: blue;
+}
+.footer .right.info ul>li {
+	display: inline-block;
+}
+.left.info ul {
+	float: left;
+	border-right: 1px solid blue;
+	width: 130px;
+	margin: 25px 0;
+}
+.left.info ul>li {
+	color: blue;
+	margin-bottom: 20px;
+}
+.right.info ul {
+	width: 810px;
+	float: left;
+	margin-left: 40px;
+}
+.right.info ul>li {
+	border-right: 1px solid gray;
+	padding-right: 15px;
+	margin:20px 6px 0 0;
+}
+.right.info ul>li:last-child {
+	border:none;
+}
