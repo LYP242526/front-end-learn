@@ -16,16 +16,13 @@ $(document).ready(function() {
     	$(this).closest('li').remove();
     });
 
-    $('li').on('hover',function(){
-    	if(event.type=='mouseenter'){
+    $('.res-list').on('mouseenter','li',function(){
     		$(this).addClass('addli');
-    	};
-    	if(event.type=='mouseleave'){
+    }).on('mouseleave','li',function(){
     		$(this).removeClass('addli');
-    	}
     });
 
-    // $('li').hover(function() {
+    // $('li').hover(function() {        //有问题，不能用
     //     $(this).addClass('addli');
     // }, function() {
     //     $(this).removeClass('addli');
