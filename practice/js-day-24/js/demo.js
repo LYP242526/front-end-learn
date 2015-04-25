@@ -1,0 +1,46 @@
+$(document).ready(function() {
+
+    // $('#add-btn').click(function(){     //不能删除
+    // 	$('.res-list').append('<li>一条数据<button class="remove-btn">删除按钮</button></li>');
+    // });
+    // $('.remove-btn').click(function(){
+    //  $(this).closest('li').remove();
+    // });
+
+
+    $('#add-btn').on('click',function(){
+    	$('.res-list').append('<li>一条数据<button class="remove-btn">删除按钮</button></li>');
+    });
+
+    $('.res-list').on('click','.remove-btn',function(){
+    	$(this).closest('li').remove();
+    });
+
+    $('li').on('hover',function(){
+    	if(event.type=='mouseenter'){
+    		$(this).addClass('addli');
+    	};
+    	if(event.type=='mouseleave'){
+    		$(this).removeClass('addli');
+    	}
+    });
+
+    // $('li').hover(function() {
+    //     $(this).addClass('addli');
+    // }, function() {
+    //     $(this).removeClass('addli');
+    // });
+
+    // $('.a').on('click', function() {
+    //     // body...
+    // });
+    // $('.a').click(function(argument) {
+    //     console.log($(this).html());
+    // });
+
+    // $('.a').eq(0).width(200);
+    // console.log($('.a').width());
+    // $('.a').width(400);
+
+
+});
