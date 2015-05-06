@@ -19,6 +19,15 @@ $(document).ready(function() {
         // 'controlArrowColor':'#f7eb2d',
         //滚动到最底部后是否滚回顶部
         'loopBottom': true,
+
+        //回调函数-教育经历
+        afterLoad:function(anchorLink,index){
+            if(index==3){
+                $('.page3').children(':first').addClass('animated zoomIn');
+                $('.page3 h2:even').addClass('animated zoomInLeft');
+                $('.page3 h2:odd').addClass('animated zoomInRight');
+            }
+        }
     });
 
     //擅长技术-鼠标经过增加padding
@@ -38,12 +47,4 @@ $(document).ready(function() {
         }, 300, 'easeInOutCubic')
     });
 
-    /*动画-教育经历*/
-    // $('.page3>h2:even').addClass('animated infinite zoomInLeft');
-    // $('.page3>h2:odd').addClass('animated infinite zoomInRight');
-    // $('.page3>h2').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-    //     function() {
-    //         $(this).removeClass('animated infinite zoomInLeft');
-    //         $(this).removeClass('animated infinite zoomInRight');
-    //     });
 });

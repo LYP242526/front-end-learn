@@ -1,0 +1,43 @@
+* {
+	margin:0;
+	padding: 0;
+	font-size: 0;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+.wrap ul {
+	width: 2500px;
+	height: 350px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.wrap {
+	width: 500px;
+	height: 350px;
+	border: 2px solid red;
+	margin-top: 50px;
+	/*overflow: hidden;*/
+	margin-left: 30px;
+	position: relative;
+}
+.wrap ol li {
+	background: black;
+	color: white;
+	padding:2px 4px;
+	font-size: 4px;
+	margin-right: 8px;
+	border: 1px solid blue;
+	cursor: pointer;
+}
+.wrap ol {
+	position: absolute;
+	bottom:10px;
+	right: 10px;
+}
+.wrap ol .current {
+	background: white;
+	color: black;
+}

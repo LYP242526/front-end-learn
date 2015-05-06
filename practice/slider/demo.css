@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.content {
+	width: 800px;
+	height: 200px;
+	border: 2px solid red;
+	margin-left: 120px;
+	margin-top: 30px;
+	overflow: hidden;
+	position: relative;
+}
+.content ul {
+	width: 1600px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.content ul li {
+	display: inline-block;
+	list-style: none;
+}
+.left_btn {
+	position: absolute;
+	left: 58px;
+	top: 120px;
+	background-color: gray;
+	color: white;
+	font-size: 10px;
+	padding: 5px;
+}
+.right_btn {
+	position: absolute;
+	left: 924px;
+	top: 120px;
+	background-color: gray;
+	font-size: 10px;
+	color: white;
+	font-size: 10px;
+	padding: 5px;
+}
